@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
 /* common styles */
 body{
     font-family: 'Inter', sans-serif;
@@ -8,6 +9,7 @@ body{
     font-family: 'Work Sans', sans-serif;
     background-color: #F3F1FF;
 }
+
 /* top Players style */
 main{
     display: flex;
@@ -43,4 +45,8 @@ main{
 .player-name{
     margin-left: 16px;
     font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
 }
