@@ -4,108 +4,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leader Board</title>
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Leader-Board</title>
+     <!-- Font Awesome kit start -->
+     <script src="https://kit.fontawesome.com/c94050bf12.js" crossorigin="anonymous"></script>
+     <!-- Font Awesome kit end -->
+    <link rel="stylesheet" href="Style/indexstyle.css">
+    <link rel="shortcut icon" href="./Assets/images/players/player-1.png" type="image/x-icon">
+
+   
 </head>
 <body>
     <!-- header start -->
-    <header>
+    <header class="header">
+        <nav>
+            <div class="Logo">
+                <img id="logo" src="Assets/images/icons/logo.png" alt="">
+                <h1 class="logo_Title">Idea</h1>
+            </div>
 
+            <div class="Second">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Works</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
     </header>
     <!-- header end -->
-    <main>
-        <!-- top players and top blogs -->
+
+    <!-- main start -->
+    <main class="main">
+        <!-- top player and top blogs start -->
         <section class="container">
-            <div class="top-players">
-                <h2 class="top-player-title">Top Player</h2>
+
+            <!-- Top Plater start -->
+            <div class="top-player ">
+                <h2 class="section_Title">Top Players</h2>
                 <div class="players">
-                    <!-- .players*6>img[src"images/playerx/player-$.png"]+h3{Top player-$} -->
-                        <div class="player">
-                            <img src="./images/players/player-1.png" alt="">
-                            <h3 class="player-name">Top Player-1</h3>
-                        </div>
-                        <div class="player">
-                            <img src="./images/players/player-2.png" alt="">
-                            <h3  class="player-name">Top Player-2</h3>
-                        </div>
-                        <div class="player">
-                            <img src="./images/players/player-3.png" alt="">
-                            <h3  class="player-name">Top Player-3</h3>
-                        </div>
-                        <div class="player">
-                            <img src="./images/players/player-4.png" alt="">
-                            <h3 class="player-name">Top Player-4</h3>
-                        </div>
-                        <div class="player">
-                            <img src="./images/players/player-5.png" alt="">
-                            <h3  class="player-name">Top Player-5</h3>
-                        </div>
-                        <div class="player">
-                            <img src="./images/players/player-6.png" alt="">
-                            <h3 class="player-name">Top Player-6</h3>
-                        </div>    
-                </div>
-                <hr>
-                <div class="top-blogs">
-                    <h2 class="top-player-title">Top Blogs</h2>
-                    <div class="blogs">
-                        <article class="blog">
-                            <div class="thumbnaill">
-                                <img src="./images/blogs/blog-1.png" alt="">
-                            </div>
-                            <div class="blog-info">
-                                <h3 class="blog-title">13 of My Favorite
-                                    UI/UX Goodies</h3>
-                                    <p class="blog-author">
-                                      By  <a href="Danny Sapio">Danny Sapio</a>
-                                    </p>
-                            </div>
-                        </article>
-                        <article class="blog">
-                            <div class="thumbnaill">
-                                <img src="./images/blogs/blog-2.png" alt="">
-                            </div>
-                            <div class="blog-info">
-                                <h3 class="blog-title">13 of My Favorite
-                                    UI/UX Goodies</h3>
-                                    <p class="blog-author">
-                                      By  <a href="Danny Sapio">Danny Sapio</a>
-                                    </p>
-                            </div>
-                        </article>
-                        <article class="blog">
-                            <div class="thumbnaill">
-                                <img src="./images/blogs/blog-3.png" alt="">
-                            </div>
-                            <div class="blog-info">
-                                <h3 class="blog-title">13 of My Favorite
-                                    UI/UX Goodies</h3>
-                                    <p class="blog-author">
-                                      By  <a href="Danny Sapio">Danny Sapio</a>
-                                    </p>
-                            </div>
-                        </article>
-                        <article class="blog">
-                            <div class="thumbnaill">
-                                <img src="./images/blogs/blog-4.png" alt="">
-                            </div>
-                            <div class="blog-info">
-                                <h3 class="blog-title">13 of My Favorite
-                                    UI/UX Goodies</h3>
-                                    <p class="blog-author">
-                                      By  <a href="Danny Sapio">Danny Sapio</a>
-                                    </p>
-                            </div>
-                        </article>
+                    <div class="player">
+                        <img src="Assets/images/players/player-1.png" alt="">
+                        <h3 class="player_name">Top Player-1</h3>
+                    </div>
+                    <div class="player">
+                        <img src="Assets/images/players/player-2.png" alt="">
+                        <h3 class="player_name">Top Player-2</h3>
+                    </div>
+                    <div class="player">
+                        <img src="Assets/images/players/player-3.png" alt="">
+                        <h3 class="player_name" >Top Player-3</h3>
+                    </div>
+                    <div class="player">
+                        <img src="Assets/images/players/player-4.png" alt="">
+                        <h3 class="player_name" >Top Player-4</h3>
+                    </div>
+                    <div class="player">
+                        <img src="Assets/images/players/player-5.png" alt="">
+                        <h3 class="player_name" >Top Player-5</h3>
+                    </div>
+                    <div class="player">
+                        <img src="Assets/images/players/player-6.png" alt="">
+                        <h3 class="player_name" >Top Player-6</h3>
                     </div>
                 </div>
-            </div>  
+            </div>
+            <!-- Top Player end -->
+            <hr>
+
+            <!-- Top Blogs Start -->
+            <div class="Top_Blogs">
+                <h2 class="section_Title">Top Blogs</h2>
+                <div class="Blogs">
+                    <article class="blog">
+                        <div class="Thumbnail">
+                            <img src="Assets/images/blogs/blog-1.png" alt="">
+                        </div>
+                        <div class="Blog_Info">
+                            <h3 class="blog_Title">13 of My Favorite UI/UX Goodies</h3>
+                            <p class="blog_author">By <a href="#">Danny Sapio</a> </p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="Thumbnail">
+                            <img src="Assets/images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="Blog_Info">
+                            <h3 class="blog_Title">UI cheat sheet: list vs grids</h3>
+                            <p class="blog_author">By <a href="#">Tess Gadd</a> </p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="Thumbnail">
+                            <img src="Assets/images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="Blog_Info">
+                            <h3 class="blog_Title">7 typography tips  for interface design</h3>
+                            <p class="blog_author">By <a href="#">Jeremiah Lam</a> </p>
+                        </div>
+                    </article>
+
+                    <article class="blog">
+                        <div class="Thumbnail">
+                            <img src="Assets/images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="Blog_Info">
+                            <h3 class="blog_Title">Your logo is copied</h3>
+                            <p class="blog_author">By <a href="#">Ferdinand Vogler</a> </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- Top Blog end -->
         </section>
-        <!-- Lates Course  -->
+        <!-- top player and top blogs end -->
+
+
+
+
+        <!-- Latest Courses Start -->
         <section class="container">
-            <h2 class="top-players ">Lates Course</h2>
+            <h2 class="section_Title">Latest Courses</h2>
+            <div class="Courses">
+                <article class="course">
+                    <div class="Course_Banner">
+                        <img src="Assets/images/courses/course-1.png" alt="">
+                    </div>
+                    <div class="Course_detail">
+                        <h3 class="Course_Title">React - The Complete Guide 2020</h3>
+                        <p class="color_tomato">Reed Krakoff.</p>
+                    </div>
+
+                    <div class="Course_info">
+                        <div>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled no-color"></i>
+                            <span>4.5</span>
+                        </div>
+                        
+                        <div class="class_duration"> 
+                            <i class="fa-regular fa-clock"></i>
+                            <div class="time"> 01:30hr</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="course">
+                    <div class="Course_Banner">
+                        <img src="Assets/images/courses/course-2.png" alt="">
+                    </div>
+                    <div class="Course_detail">
+                        <h3 class="Course_Title">React - The Complete Guide 2020</h3>
+                        <p class="color_tomato">Reed Krakoff.</p>
+                    </div>
+
+                    <div class="Course_info">
+                        <div>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled no-color"></i>
+                            <span>4.5</span>
+                        </div>
+                        
+                        <div class="class_duration"> 
+                            <i class="fa-regular fa-clock"></i>
+                            <div class="time"> 01:30hr</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="course">
+                    <div class="Course_Banner">
+                        <img src="Assets/images/courses/course-3.png" alt="">
+                    </div>
+                    <div class="Course_detail">
+                        <h3 class="Course_Title">React - The Complete Guide 2020</h3>
+                        <p class="color_tomato">Reed Krakoff.</p>
+                    </div>
+
+                    <div class="Course_info">
+                        <div>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled "></i>
+                            <i class="fa-solid fa-star filled no-color"></i>
+                            <span>4.5</span>
+                        </div>
+                        
+                        <div class="class_duration"> 
+                            <i class="fa-regular fa-clock"></i>
+                            <div class="time">01:30hr</div> 
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
+        <!-- Latest Courses end -->
     </main>
+    <!-- main End -->
+
+    <!-- footer start -->
+    <footer class="footer">
+
+    </footer>
+    <!-- footer end -->
 </body>
 </html>
