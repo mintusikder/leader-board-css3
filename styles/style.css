@@ -13,13 +13,15 @@ body{
 /* top Players style */
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .top-players{
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
+    border-radius: 5px;
     /* height: 679px; */
 }
 .top-player-title{
